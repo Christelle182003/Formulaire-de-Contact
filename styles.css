@@ -4,7 +4,7 @@ body{
     justify-content: center;
     background-color: #a4aec5;
     font-family: 'karla';
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
 }
 .form{
@@ -141,7 +141,7 @@ button{
 
     textarea{
         width: 320px;
-        height: 100px;
+        height: 70px;
     }
 
     button{
@@ -156,7 +156,9 @@ button{
 
 @media (max-width: 403px){
     .body{
-        overflow-x: hidden;
+        box-sizing: border-box;
+        /* overflow-x: hidden;
+        overflow-y: scroll; */
     }
 
     .form{
@@ -164,7 +166,7 @@ button{
         background-color: #ffffff;
         /* width: 450px; */
         border-radius: 20px;
-        margin-top: 90px;
+        margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         max-width: 100%; /*NEW AJOUT    */
@@ -173,7 +175,7 @@ button{
 
     form{
         padding-left: 30px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         margin-left: 0;
     
     }
